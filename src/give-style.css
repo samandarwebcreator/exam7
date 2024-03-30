@@ -1,0 +1,36 @@
+.main__wrapper {
+  padding: 15px 0px;
+}
+
+.ham__menu {
+  padding: 15px;
+  border-radius: 16px;
+}
+
+.ham__menu:hover {
+  opacity: 0.8;
+}
+
+span {
+  top: 11px;
+  left: 10px;
+}
+
+.search-input {
+  padding: 9px 20px 11px 40px;
+  background-color: #f8f8f8;
+  outline: none;
+  border-radius: 17px;
+  max-width: 95%;
+  width: 100%;
+  border: 1px solid transparent;
+}
+
+.search-input::placeholder {
+  color: #a5a5a5;
+}
+
+.search-input:focus {
+  color: #a5a5a5;
+  border-color: #46a358;
+}
