@@ -11,7 +11,7 @@
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
   z-index: 1;
-  bottom: 4.8%;
+  bottom: 4%;
   left: 50%;
   transform: translateX(-50%);
   box-shadow: inset 0px 0px 80px 0px rgba(92, 85, 85, 0.05);
@@ -23,7 +23,7 @@
   z-index: 1;
   border-radius: 50%;
   position: fixed;
-  bottom: 2%;
+  bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 12px 1px rgba(92, 85, 85, 0.6);
