@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         "brand-color": "#46A358",
+        "input-color": "#f8f8f8",
+        "gray-thin-placeholder": "#a5a5a5",
       },
       container: {
         center: true,
@@ -15,6 +17,7 @@ export default {
       },
       boxShadow: {
         "custom-shadow": "0 10px 20px 0 rgba(70, 163, 88, 0.3)",
+        "footer-routes-shadow": "0px 0px 7px 4px rgba(92, 85, 85, 0.08);",
       },
       backgroundImage: {
         "gradient-brand":
