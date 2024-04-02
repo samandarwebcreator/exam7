@@ -6,7 +6,6 @@ export const likeIcon = (
     />
   </svg>
 );
-
 export const homeIcon = (
   <svg
     width="16"
@@ -29,7 +28,6 @@ export const scanerIcon = (
     />
   </svg>
 );
-
 export const basketIcon = (
   <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
@@ -46,7 +44,6 @@ export const userIcon = (
     />
   </svg>
 );
-
 export const desktopBasket = (
   <svg
     width="24"
@@ -61,7 +58,6 @@ export const desktopBasket = (
     />
   </svg>
 );
-
 export const desktopSearch = (
   <svg
     width="20"
@@ -73,6 +69,89 @@ export const desktopSearch = (
     <path
       d="M14.5726 16.0029C10.5755 19.1865 4.988 18.3056 2.02842 14.6542C-0.828088 11.129 -0.64944 6.04347 2.44943 2.82482C5.65137 -0.500594 10.6854 -0.944524 14.3346 1.78337C15.642 2.76051 16.6183 4.00364 17.2542 5.50838C17.8938 7.02186 18.0881 8.59654 17.8663 10.2205C17.6452 11.837 17 13.2775 15.9499 14.6217C16.0349 14.6773 16.1255 14.7173 16.1904 14.7822C17.3448 15.9311 18.4947 17.0843 19.6491 18.2331C19.9227 18.5054 20.0589 18.8225 19.9776 19.2047C19.8165 19.9651 18.9107 20.2586 18.3298 19.7366C18.0575 19.4925 17.807 19.2234 17.5484 18.9649C16.6002 18.0177 15.6526 17.0699 14.7044 16.1227C14.665 16.0853 14.6238 16.0503 14.5726 16.0029ZM15.9605 8.98677C15.9705 5.12689 12.8529 2.00627 8.98261 2.00065C5.12292 1.99503 2.00781 5.09068 1.99094 8.94806C1.97408 12.8173 5.08544 15.9467 8.96762 15.9648C12.8117 15.9829 15.9505 12.8504 15.9605 8.98677Z"
       fill="#3D3D3D"
+    />
+  </svg>
+);
+export const loginIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+  >
+    <path
+      d="M18.1601 10.1006H8.12598"
+      stroke="white"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M15.7212 7.67059L18.1612 10.1006L15.7212 12.5306"
+      stroke="white"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M13.6342 6.35823C13.3592 3.3749 12.2425 2.29156 7.80082 2.29156C1.88332 2.29156 1.88332 4.21656 1.88332 9.9999C1.88332 15.7832 1.88332 17.7082 7.80082 17.7082C12.2425 17.7082 13.3592 16.6249 13.6342 13.6416"
+      stroke="white"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const navbarIcon = (
+  <svg
+    width="17"
+    height="17"
+    viewBox="0 0 17 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M7.2144 13.3926H1.28125"
+      stroke="white"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M10.9375 13.3934C10.9375 15.2651 11.5617 15.8884 13.4325 15.8884C15.3033 15.8884 15.9274 15.2651 15.9274 13.3934C15.9274 11.5218 15.3033 10.8984 13.4325 10.8984C11.5617 10.8984 10.9375 11.5218 10.9375 13.3934Z"
+      stroke="white"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M9.99512 3.77801H15.9274"
+      stroke="white"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M6.27202 3.77677C6.27202 1.90595 5.64786 1.2818 3.77704 1.2818C1.9054 1.2818 1.28125 1.90595 1.28125 3.77677C1.28125 5.64841 1.9054 6.27175 3.77704 6.27175C5.64786 6.27175 6.27202 5.64841 6.27202 3.77677Z"
+      stroke="white"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const mobileSearchIcon = (
+  <svg width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M10.53 3.244c-4.025 0-7.287 3.258-7.287 7.277 0 4.018 3.262 7.277 7.287 7.277 2.008 0 3.825-.81 5.143-2.123a7.248 7.248 0 0 0 2.143-5.154c0-4.019-3.261-7.277-7.286-7.277ZM1.833 10.52c0-4.799 3.894-8.688 8.697-8.688 4.802 0 8.696 3.889 8.696 8.688a8.65 8.65 0 0 1-2.077 5.634l2.81 2.808a.705.705 0 1 1-.996.997l-2.813-2.81a8.67 8.67 0 0 1-5.62 2.058c-4.803 0-8.697-3.889-8.697-8.687Z"
+      fill="#A5A5A5"
     />
   </svg>
 );

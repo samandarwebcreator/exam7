@@ -15,7 +15,7 @@ export default function Header() {
       <div className="py-3">
         <Navbar />
       </div>
-      <div className="sm:block md:hidden w-full py-4 px-0 ">
+      <div className="sm:block mtd:hidden w-full py-4 px-0">
         <div className=" w-full">
           <div className="fixed bottom-0 w-full flex main__wrapper bg-white py-7 rounded-t-2xl shadow-footer-routes-shadow ">
             <div className="w-1/2 flex  items-center justify-around pr-8">

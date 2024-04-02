@@ -7,11 +7,14 @@ export default {
         "brand-color": "#46A358",
         "input-color": "#f8f8f8",
         "gray-thin-placeholder": "#a5a5a5",
+        "text-color": "#3d3d3d",
+        "background-shadow": "rgba(0, 0, 0, 0.4)",
       },
       screens: {
         sm: "768px",
         md: "820px",
-        lg: "1024px",
+        mtd: "1000px",
+        lg: "1200px",
         xl: "1280px",
       },
       container: {
@@ -32,7 +35,30 @@ export default {
       },
       width: {
         full: "100%",
-        // "size-full": "100%",
+      },
+      keyframes: {
+        fromBottomToTop: {
+          from: {
+            bottom: "-100px",
+          },
+          to: {
+            bottom: "0",
+          },
+        },
+        fromRightToLeft: {
+          from: {
+            transform: "translateX(100%)",
+            opacity: 0,
+          },
+          to: {
+            transform: "translateX(0%)",
+            opacity: 1,
+          },
+        },
+      },
+      animation: {
+        fromBottomToTop: "fromBottomToTop 0.5s ease-out",
+        fromRightToLeft: "fromRightToLeft 0.4s ease-in-out",
       },
     },
   },
